@@ -1,0 +1,24 @@
+html, body {
+  font-family: serif;
+  font-size: 16px;
+}
+
+.countdown-container {
+  margin: 5rem;
+}
+
+.time-container {
+  display: flex;
+}
+
+.time {
+  margin: .2rem;
+background-color: lightblue;
+border-radius: 1rem;
+padding: 2rem;
+}
+
+#hour,#min,#sec, #date {
+  font-size: 3rem;
+  margin-right: 1rem;
+}

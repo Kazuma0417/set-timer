@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>カウントダウンタイマー</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <input type="date" name="date3" />
+    <button onclick="window.location.reload();">リセット</button>
+    <div class="countdown-container">
+      <h1><span id="deadline"></span>まで</h1>
+      <h2>あと</h2>
+      <div class="time-container">
+        <p class="time"><span id="date"></span>date</p>
+        <p class="time"><span id="hour"></span>hours</p>
+        <p class="time"><span id="min"></span>minutes</p>
+        <p class="time"><span id="sec"></span>secounds</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
