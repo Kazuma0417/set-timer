@@ -52,6 +52,7 @@ document.addEventListener(
         hour.innerHTML = h;
         min.innerHTML = m;
         sec.innerHTML = s;
+        console.log(d);
       }
     };
 
